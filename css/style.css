@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+html,
+body {
+   height: 100%;
+   font-family: 'Quicksand', sans-serif;
+   color: black;
+}
+header{
+
+}
+.b-a {
+   transition: all .25s;
+   content: "";
+   position: absolute;
+   left: 0;
+   height: 6px;
+   width: 30px;
+   border-radius: 15px;
+   background-color: rgba(255, 255, 255, 0.95);
+}
+.menu-collapsed {
+    color: black;
+
+   transition: all .25s;
+   z-index: 1;
+   cursor: pointer;
+}
+   ul {
+      transition: all 0s;
+      position: fixed;
+      left: -9000px;
+   }
+.bar {
+   @extend .b-a;
+   position: fixed;
+   left: 12px;
+   top: 24px;
+   &:before {
+      @extend .b-a;
+      top: -8px;
+   }
+   &:after {
+      @extend .b-a;
+      top: 8px;
+   }
+}
+.b-a-expanded {
+   transition: all .25s;
+   top: -0px;
+}
+.menu-expanded {
+   transition: all .25s;
+   text-align: center;
+   line-height: 200px;
+   height: 100%;
+   width: 100%;
+   border-radius: 0px;
+   top: 0;
+   left: 0;
+   background-color: rgba(0, 0, 0, 0.85);
+    }
+   ul {
+      transition: all 0s;
+      position: relative;
+      left: 0;
+      z-index: 2;
+   }
+   a {
+      transition: all .15s;
+      text-decoration: none;
+      font-size: 2em;
+      padding: 5px;
+      color: #fff;
+      display:block;
+      &:hover {
+         background-color:rgba(white, .8);
+         transition: all .15s;
+         letter-spacing: 2px;
+         color:#333;
+         border: 1px solid rgba(255, 255, 255, .15);
+      }
+   }
+   .bar {
+      background-color: transparent;
+      transition: all .25s;
+      &:before {
+         @extend .b-a-expanded;
+         transform: rotate(45deg);
+      }
+      &:after {
+         @extend .b-a-expanded;
+         transform: rotate(-45deg);
+      }
+   }
+}
