@@ -1,0 +1,84 @@
+html, body{
+   padding: 0;
+   margin: 0;
+}
+
+.toggle_btn {
+   height: 30px;
+   width: 30px;
+   position: absolute;
+   float: right;
+   margin-left: 95%;
+   margin-top: 25px;
+   cursor: pointer;
+}
+
+.toggle_btn span {
+   height: 3px;
+   background-color: #ffaf87;
+   width: 100%;
+   position: absolute;
+   top: 20px;
+   left: 0;
+}
+
+.toggle_btn span:before {
+   content: '';
+   height: 3px;
+   background-color: #ffaf87;
+   width: 100%;
+   position: absolute;
+   top: -10px;
+   left: 0;
+}
+
+.toggle_btn span:after {
+   content: '';
+   height: 3px;
+   background-color: #ffaf87;
+   width: 100%;
+   position: absolute;
+   top: 10px;
+   left: 0;
+}
+
+
+.menu{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100vh;
+   background-color: rgba(0, 0, 0, 0.801);
+   width: 100%;
+}
+
+.menu a {
+   color: aliceblue;
+   font-family: "Anton";
+   font-size: 3rem;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   padding-top: 80px;
+   text-decoration: none;
+}
+.menu a:hover {
+   color: #ffaf87;
+   font-family: "Anton";
+   font-size: 3rem;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   padding-top: 80px;
+   text-decoration: none;
+}
+ 
+.nav{
+   margin-left: -100%;
+   transition-duration: 0.2s;
+}
+
+.nav_open {
+   margin-left: 0;
+   transition-duration: 0.2s; 
+}
