@@ -4,25 +4,25 @@ $gray: #ffffff;
   font-family: 'Poppins', sans-serif;
 }
 .container {
-    position: relative;
-    display: flex;
-    text-align: center;
+  
 }
 button {
+  position: relative;
     outline:none;
     height: 40px;
     text-align: center;
     width: 170px;
     border-radius:40px;
-    background: #fff;
+    background: transparent;
     border: 2px solid $blue;
     color:$blue;
     letter-spacing:1px;
     text-shadow:0;
+    margin-bottom: 40px;
     margin-top: 10px;
+    z-index: 5000;
   font{
-    size:12px;
-    weight:bold;
+    size: 12px;
   }
   cursor: pointer;
   transition: all 0.25s ease;

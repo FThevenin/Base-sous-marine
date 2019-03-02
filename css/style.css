@@ -6,9 +6,10 @@ html{
 }
 header{
    width: 100%;
-   position: absolute;
+   position: fixed;
    display: flex;
    justify-content: space-between;
+   z-index: 500;
 }
 h2{
    font-family: "Anton";
@@ -21,9 +22,8 @@ p{
    background-position: center;
    background-size: cover;
    height: 100vh;
-   display: flex;
-   position: relative;
 }
+/*************NAVBAR***************/
 .logo{
    background-image: url(../img/LOGO.png);
    background-size: cover;
@@ -33,25 +33,31 @@ p{
    position: absolute;
    cursor: pointer;
    margin: 30px;
+   z-index: 1000;
 }
 .enclume{
    position: absolute;
    bottom: 10px;
    width: 100%;
+   z-index: 1000;
 }
 .title{
    position: relative;
-   display: flex;
+   display: inline-block;
+   height: 150px;
+   width: 100%;
 }
-.para{
-   position: relative;
-}
-#back h1{
+.title h1{
+   text-align: justify;
+   margin-top: 15%;
+   margin-left: 10%;
    font-family: "Anton";
    font-size: 5rem;
    color: #e9e4de;
 }
-#back p{
+.para{
+   position: relative;
+   margin-left: 10%;
    font-family: "Poppins";
    color: #ffaf87;
    font-size: 1.5rem;
@@ -69,23 +75,32 @@ p{
 }
 /* Section Medio acqua*/
 #medio{
+   position: relative;
    display: flex;
-   justify-content: space-between;
+   width: 100%;
+   z-index: 1000;
 }
 #medio h2{
    display: inline-block;
    font-size: 4.5rem;
    margin-bottom: 10px;
 }
+.clas{
+   width: 50%;
+}
 #medioacqua{
-   background-image: url(../img/Medio-acqua.jpg);
+   background-image: url(../img/Medio-acqua.png);
    background-position: center;
    background-size: cover;
-   height: 436px;
-   width: 780px;
+   height: 380px;
+   width: 100%;
 }
 .txt{
-   margin-left: 12%;
+   margin-left: 11%;
+   margin-top: 3%;
+}
+.txt p{
+      line-height: 2;
 }
 .pictoexpo{
    background-image: url(../img/Picto-expo.png);
@@ -96,4 +111,107 @@ p{
    display: inline-block;
    margin-right: 10px;
 }
-
+/*************SECTION BSM********************/
+#bsm{
+   display: flex;
+   position: relative;
+}
+.txt2{
+   margin-top: 3%;
+   position: relative;
+}
+.txt2 p{
+   line-height: 2;
+}
+#bsmdiag{
+   background-image: url(../img/BSM-nb.png);
+   background-position: center;
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+}
+.pictobsm{
+   background-image: url(../img/Picto-bsm.png);
+   background-position: center;
+   background-size: cover;
+   width: 65px;
+   height: 65px;
+   display: inline-block;
+   margin-right: 10px;
+}
+#bsm h2{
+   display: inline-block;
+   font-size: 4.5rem;
+   margin-bottom: 10px;
+}
+/******AGENDA**********/
+#agenda{
+   height: 50%;
+   background-color: #1e1e1e;
+   color: aliceblue;
+   position: relative;
+}
+#agenda h2{
+   color: aliceblue;
+   text-align: center;
+   font-size: 4.5rem;
+   padding-top: 40px;
+}
+.para2{
+   width: 50%;
+   margin-right: auto;
+   margin-left: auto;
+}
+#agenda p{
+   text-align: justify;
+   line-height: 2;
+}
+.pictoagenda{
+   width: 50%;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+.pictomicro{
+    background-image: url(../img/Picto-micro.png);
+    background-position: center;
+    background-size: cover;
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    margin: 60px;
+}
+.pictospectacle{
+    background-image: url(../img/Picto-spectacle.png);
+    background-position: center;
+    background-size: cover;
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    margin: 60px;
+}
+.pictocine{
+    background-image: url(../img/Picto-cine.png);
+    background-position: center;
+    background-size: cover;
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    margin: 60px;
+}
+#agenda .pictoexpo{
+   margin: 60px;
+}
+#agenda .button{
+   margin-left: 0;
+}
+#agenda .container{
+   margin-right: auto;
+   margin-left: auto;
+   text-align: center;
+   padding: 0;
+}
+iframe{
+   width: 100%;
+   height: 50vh;
+}
