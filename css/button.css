@@ -1,0 +1,38 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  text-align: center;
+}
+
+button {
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 170px;
+  border-radius: 40px;
+  background: #fff;
+  border: 2px solid #3a5893;
+  color: #3a5893;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+button font {
+  size: 12px;
+  weight: bold;
+}
+button:hover {
+  color: #ffaf87;
+  background: #3a5893;
+}
+button:active {
+  letter-spacing: 2px;
+}
+
+/*# sourceMappingURL=button.css.map */

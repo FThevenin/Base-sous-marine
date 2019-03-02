@@ -1,0 +1,36 @@
+$blue: #3a5893;
+$gray: #ffffff;
+* {
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+    position: relative;
+    display: flex;
+    text-align: center;
+}
+button {
+    outline:none;
+    height: 40px;
+    text-align: center;
+    width: 170px;
+    border-radius:40px;
+    background: #fff;
+    border: 2px solid $blue;
+    color:$blue;
+    letter-spacing:1px;
+    text-shadow:0;
+    margin-top: 10px;
+  font{
+    size:12px;
+    weight:bold;
+  }
+  cursor: pointer;
+  transition: all 0.25s ease;
+  &:hover {
+    color:#ffaf87;
+    background: $blue;
+  }
+  &:active {
+    letter-spacing: 2px ;
+  }
+}

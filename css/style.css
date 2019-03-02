@@ -1,11 +1,20 @@
 *{
    max-width: 1920px;
 }
+html{
+   scroll-behavior: smooth;
+}
 header{
    width: 100%;
-   position: fixed;
+   position: absolute;
    display: flex;
    justify-content: space-between;
+}
+h2{
+   font-family: "Anton";
+}
+p{
+   font-family: "Poppins";
 }
 #back{
    background-image: url(../img/image-acceuil.jpg);
@@ -13,33 +22,36 @@ header{
    background-size: cover;
    height: 100vh;
    display: flex;
+   position: relative;
 }
 .logo{
-   position: fixed;
-   cursor: pointer;
-   padding: 15px;
-}
-#medioacqua{
-   background-image: url(../img/Medio-acqua.jpg);
-   background-position: center;
+   background-image: url(../img/LOGO.png);
    background-size: cover;
-   height: 540px;
-   width: 960px;
-   float: right;
+   background-position: center;
+   width: 120px;
+   height: 85px;
+   position: absolute;
+   cursor: pointer;
+   margin: 30px;
+}
+.enclume{
+   position: absolute;
+   bottom: 10px;
+   width: 100%;
+}
+.title{
+   position: relative;
    display: flex;
 }
-.s1{
-   display: flex;
-   flex-direction: column;
-   margin-left: 12.5%;
-   margin-top: 17%;
+.para{
+   position: relative;
 }
-#page-garde h1{
+#back h1{
    font-family: "Anton";
    font-size: 5rem;
    color: #e9e4de;
 }
-#page-garde p{
+#back p{
    font-family: "Poppins";
    color: #ffaf87;
    font-size: 1.5rem;
@@ -52,6 +64,36 @@ header{
    height: 65px;
    width: 50px;
    cursor: pointer;
-   
+   margin-right: auto;
+   margin-left: auto;
+}
+/* Section Medio acqua*/
+#medio{
+   display: flex;
+   justify-content: space-between;
+}
+#medio h2{
+   display: inline-block;
+   font-size: 4.5rem;
+   margin-bottom: 10px;
+}
+#medioacqua{
+   background-image: url(../img/Medio-acqua.jpg);
+   background-position: center;
+   background-size: cover;
+   height: 436px;
+   width: 780px;
+}
+.txt{
+   margin-left: 12%;
+}
+.pictoexpo{
+   background-image: url(../img/Picto-expo.png);
+   background-position: center;
+   background-size: cover;
+   width: 65px;
+   height: 65px;
+   display: inline-block;
+   margin-right: 10px;
 }
 

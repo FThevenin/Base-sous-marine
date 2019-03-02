@@ -9,8 +9,9 @@ html, body{
    position: absolute;
    float: right;
    margin-left: 95%;
-   margin-top: 25px;
+   margin-top: 30px;
    cursor: pointer;
+   z-index: 15;
 }
 
 .toggle_btn span {
@@ -20,6 +21,7 @@ html, body{
    position: absolute;
    top: 20px;
    left: 0;
+   border-radius: 10px;
 }
 
 .toggle_btn span:before {
@@ -30,6 +32,7 @@ html, body{
    position: absolute;
    top: -10px;
    left: 0;
+   border-radius: 10px;
 }
 
 .toggle_btn span:after {
@@ -40,6 +43,7 @@ html, body{
    position: absolute;
    top: 10px;
    left: 0;
+   border-radius: 10px;
 }
 
 
@@ -50,6 +54,7 @@ html, body{
    height: 100vh;
    background-color: rgba(0, 0, 0, 0.801);
    width: 100%;
+   z-index: 10;
 }
 
 .menu a {
@@ -59,7 +64,7 @@ html, body{
    text-align: center;
    display: flex;
    flex-direction: column;
-   padding-top: 80px;
+   margin-top: 80px;
    text-decoration: none;
 }
 .menu a:hover {
@@ -69,7 +74,7 @@ html, body{
    text-align: center;
    display: flex;
    flex-direction: column;
-   padding-top: 80px;
+   margin-top: 80px;
    text-decoration: none;
 }
  
