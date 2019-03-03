@@ -1,0 +1,40 @@
+#acc{
+    background-image: url(../img/noir-blanc.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+#histoire{
+    height: 50vh;
+}
+.bloc{
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-bottom: 3%;
+}
+#bicolor{
+    background-image: url(../img/bicoloor.png);
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 60vh;
+    float: left;
+    position: absolute;
+}
+#bicolor p{
+    margin-left: 17%;
+    margin-top: 5%;
+}
+#bicolor2{
+    background-image: url(../img/bicolor.png);
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 60vh;
+    float: right;
+}
+#bicolor2 p{
+    color: #ffaf87;
+    margin-left: 40%;
+    margin-top: 5%;
+}
