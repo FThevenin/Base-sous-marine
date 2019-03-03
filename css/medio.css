@@ -1,0 +1,157 @@
+#one{
+    background-image: url(../img/Medio.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.text h1{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 50%;
+}
+#one p{
+    font-size: 1.5rem;
+    font-family: "Anton";
+    color: #e9e4de;
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 68%;
+}
+/****SECTION 2**********/
+#descriptionmedio{
+    height: 70vh;
+    position: relative;
+    display: flex;
+}
+.imgmedio{
+    width: 50%;
+    display: flex;
+}
+#medioi{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/img-4.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+#descriptionmedio h2{
+    color: #ffaf87;
+}
+.boite{
+    display: inline-block;
+    margin: auto;
+}
+/*****PIERRE MALPHETTE*******/
+
+#malphette{
+    height: 80vh;
+    position: relative;
+}
+.photo-pierre{
+    width: 50%;
+    float: right;
+}
+.pierre{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../img/Pierre-Malphettes.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+#malphette h2{
+    color: #ffaf87;
+    margin-top: 7%;
+}
+#malphette .boite{
+    margin-left: 10%;
+}
+/*****NICOLAS TOURTE*******/
+
+#tourte{
+    height: 90vh;
+    position: relative;
+    display: flex;
+}
+.photo-nicolas{
+    width: 50%;
+    display: flex;
+}
+.nicolas{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../img/Tourte.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+#tourte h2{
+    color: #ffaf87;
+    margin-top: 15%;
+}
+/*****MATHILDE LAVENNE*******/
+#lavenne{
+    height: 80vh;
+    position: relative;
+}
+.photo-mathilde{
+    width: 50%;
+    float: right;
+}
+.mathilde{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../img/Lavenne.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+#lavenne h2{
+    color: #ffaf87;
+    margin-top: 7%;
+}
+#lavenne .boite{
+    margin-left: 10%;
+}
+/***** BARRE****/
+#barre{
+    margin-top: 5%;
+    background-color: #1e1e1e;
+    width: 100%;
+    height: 45%;
+}
+.pictolienmedio{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pictoinfo{
+    background-image: url(../img/Picto-info.png);
+    background-position: center;
+    background-size: cover;
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    margin: 80px;
+}
+.pictocarnet{
+    background-image: url(../img/Picto-carnet.png);
+    background-position: center;
+    background-size: cover;
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    margin: 80px;
+}
+.pictobsm{
+    background-image: url(../img/Picto-bsmnoir.png);
+    background-position: center;
+    background-size: cover;
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    margin: 80px;
+}
