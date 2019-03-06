@@ -1,0 +1,145 @@
+#galery{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.cinema{
+    background-image: url(../img/Cinema.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 100vh;
+    transition: 0.5s;
+}
+.cinema:hover{
+    background-image: url(../img/Cinema-hover.jpg);
+    width: 30%;
+}
+.exposition{
+    background-image: url(../img/exposition.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 100vh;
+    transition: 0.5s;
+}
+.exposition:hover{
+    background-image: url(../img/exposition-hover.jpg);
+    width: 30%;
+}
+.concert{
+    background-image: url(../img/concert.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 100vh;
+    transition: 0.5s;
+}
+.concert:hover{
+    background-image: url(../img/concert-hover.jpg);
+    width: 30%;
+}
+.spectacle{
+    background-image: url(../img/spectacle.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 100vh;
+    transition: 0.5s;
+}
+.spectacle:hover{
+    background-image: url(../img/spectacle-hover.jpg);
+    width: 30%;
+}
+.opacity{
+    margin-top: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.opacity h2{
+    color: #e9e4de;
+}
+.opacity p{
+    background-color: rgba(0, 0, 0, 0.726);
+    padding-left: 10px;
+    border-radius: 10px;
+    color: #e9e4de;
+}
+.bloc-prog{
+    display: flex;
+}
+.img-medio{
+    background-image: url(../img/image-medio.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 70vh;
+    margin: 2%;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+.img-proj{
+    background-image: url(../img/image-prog.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 70vh;
+    margin: 2%;
+    margin-left: 10%;
+}
+.img-orchestre{
+    background-image: url(../img/image-orchestre.jpg);
+    background-position: center;
+    width: 30%;
+    height: 70vh;
+    margin: 2%;
+    margin-left: 10%;
+}
+.ecrit{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+}
+.ecrit h3{
+    color: #ffaf87;
+}
+#date{
+    height: 50vh;
+    position: relative;
+}
+#bicolor{
+    background-image: url(../img/bicoloor.png);
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 60vh;
+    float: left;
+    position: absolute;
+}
+#bicolor ul{
+    margin-left: 23%;
+    margin-top: 5%;
+}
+#bicolor h2{
+    color: #1e1e1e;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+#bicolor2{
+    background-image: url(../img/bicolor.png);
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 60vh;
+    float: right;
+}
+#bicolor2 ul{
+    color: #ffaf87;
+    margin-left: 38%;
+    margin-top: 5%;
+}
+#bicolor2 h2{
+    color: #ffaf87;
+    margin-left: 40%;
+    margin-top: 5%;
+}

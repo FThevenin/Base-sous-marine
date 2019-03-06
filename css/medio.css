@@ -7,7 +7,7 @@
 }
 .text h1{
     position: absolute;
-    margin-top: 12%;
+    margin-top: 5%;
     margin-left: 50%;
 }
 #one p{
@@ -132,26 +132,38 @@
     background-image: url(../img/Picto-info.png);
     background-position: center;
     background-size: cover;
-    width: 65px;
-    height: 65px;
+    width: 80px;
+    height: 80px;
     display: inline-block;
     margin: 80px;
+    transition: 0.5s;
+}
+.pictoinfo:hover{
+    background-image: url(../img/Info-pratique-parallaxe.png);
 }
 .pictocarnet{
     background-image: url(../img/Picto-carnet.png);
     background-position: center;
     background-size: cover;
-    width: 65px;
-    height: 65px;
+    width: 80px;
+    height: 80px;
     display: inline-block;
     margin: 80px;
+    transition: 0.5s;
+}
+.pictocarnet:hover{
+    background-image: url(../img/Agenda-parallaxe.png)
 }
 .pictobsm{
     background-image: url(../img/Picto-bsmnoir.png);
     background-position: center;
     background-size: cover;
-    width: 65px;
-    height: 65px;
+    width: 80px;
+    height: 80px;
     display: inline-block;
     margin: 80px;
+    transition: 0.5s;
+}
+.pictobsm:hover{
+    background-image: url(../img/bsm-parallaxe.png);
 }

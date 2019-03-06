@@ -12,14 +12,25 @@ header{
    z-index: 500;
 }
 h1{
-   font-size: 5rem;
-   color: #e9e4de;
+      font-size: 150px;
+      font-family: "Anton";
+      color: rgb(233, 228, 222);
+      line-height: 1;
+      text-align: left;
+      z-index: 107;
 }
 h2{
-   font-size: 4.5rem;
+      font-size: 60px;
+      font-family: "Anton";
+      color: rgb(255, 175, 135);
+      line-height: 1.333;
+      z-index: 110;    
 }
  h1, h2{
    font-family: "Anton";
+}
+h3{
+   font-family: "Poppins";
 }
 p{
    font-family: "Poppins";
@@ -42,6 +53,10 @@ p{
    cursor: pointer;
    margin: 30px;
    z-index: 1000;
+   transition: 0.5s;
+}
+.logo:hover{
+   background-image: url(../img/LogoV2-parallaxe.png);
 }
 .enclume{
    position: absolute;
@@ -73,37 +88,57 @@ p{
    background-image: url(../img/Ancre.png);
    background-position: center;
    background-size: cover;
-   height: 65px;
-   width: 50px;
+   height: 55px;
+   width: 45px;
+   cursor: pointer;
+   margin-right: auto;
+   margin-left: auto;
+   transition: 0.3s;
+}
+.ancre:hover{
+   background-image: url(../img/ancre-parallaxe.png);
+   background-position: center;
+   background-size: cover;
+   height: 55px;
+   width: 55px;
    cursor: pointer;
    margin-right: auto;
    margin-left: auto;
 }
 /* Section Medio acqua*/
 #medio{
-   position: relative;
    display: flex;
    width: 100%;
    z-index: 1000;
 }
 #medio h2{
-   display: inline-block;
-   font-size: 4.5rem;
+   display: flex;
+   margin: 0;
+}
+.align-picto{
+   display: flex;
+   align-items: center;
    margin-bottom: 10px;
 }
 .clas{
+   width: 52%;
+   float: right
+}
+.clas1{
    width: 50%;
+   float: left;
 }
 #medioacqua{
    background-image: url(../img/Medio-acqua.png);
    background-position: center;
    background-size: cover;
-   height: 380px;
+   height: 100%;
    width: 100%;
 }
 .txt{
    margin-left: 11%;
    margin-top: 3%;
+   float: left;
 }
 .txt p{
       line-height: 2;
@@ -114,8 +149,8 @@ p{
    background-size: cover;
    width: 65px;
    height: 65px;
-   display: inline-block;
    margin-right: 10px;
+   display: inline-block;
 }
 /*************SECTION BSM********************/
 #bsm{
@@ -142,12 +177,10 @@ p{
    background-size: cover;
    width: 65px;
    height: 65px;
-   display: inline-block;
    margin-right: 10px;
 }
 #bsm h2{
-   display: inline-block;
-   margin-bottom: 10px;
+   margin: 0;
 }
 /******AGENDA**********/
 #agenda{
@@ -157,10 +190,12 @@ p{
    position: relative;
 }
 #agenda h2{
-   color: aliceblue;
    text-align: center;
-   font-size: 4.5rem;
    padding-top: 40px;
+   font-family: "Anton";
+   color: rgb(253, 251, 251);
+   line-height: 0.667;
+   z-index: 23;
 }
 .para2{
    width: 50%;

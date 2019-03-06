@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/burger.css">
   <link rel="stylesheet" href="css/button.css">
+  <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
   <header>
@@ -19,10 +20,10 @@
     </div>
     
     <div class="menu nav row align-items-center">
-      <a href="medio.html">Medio Acqua</a>
-      <a href="base.html">Base sous-marine</a>
-      <a href="agenda.html">Agenda</a>
-      <a href="info.html">Info pratique</a>
+      <a href="medio.php">Medio Acqua</a>
+      <a href="base.php">Base sous-marine</a>
+      <a href="agenda.php">Agenda</a>
+      <a href="info.php">Info pratique</a>
     </div>
     <div class="logo"></div>   
 </header>
@@ -41,8 +42,10 @@
 
   <section id="medio">
     <div class="txt">
+      <div class="align-picto">
         <div class="pictoexpo"></div>
         <h2>MEDIO ACQUA</h2>
+      </div>
       <p>Medio acqua présente des installations d’artistes majeurs et <br> emblématiques de la scène artistique française et internationale ainsi <br> qu’une sélection d’œuvres vidéo de jeunes artistes émergents et <br> récemment diplômés de la prestigieuse école du Fresnoy.</p>
       <div class="container">
         <a href="medio.html"><button id="button">En savoir plus</button></a>
@@ -54,12 +57,14 @@
   </section>
 
   <section id="bsm">
-    <div class="clas">
+    <div class="clas1">
       <div id="bsmdiag"></div>
     </div>
     <div class="txt2">
-      <div class="pictobsm"></div>
-      <h2>LA BASE SOUS-MARINE</h2>
+      <div class="align-picto">
+        <div class="pictobsm"></div>
+        <h2>LA BASE SOUS-MARINE</h2>
+      </div>
       <p>Construite entre 1941 et 1943 par l’occupant allemand, elle était destinée <br> a accueillir des sous-marins. C’est un gigantesque bunker organisé en 11 <br> alvéoles liées entre elles par une rue intérieure. Une tour de 27 m de haut <br> est accolée au bâtiment long de 290 m. L’ensemble couvre une <br> superficie de 43 000 m2.</p>
       <div class="container">
           <a href="base.html"><button id="button">En savoir plus</button></a>     
@@ -85,6 +90,7 @@
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4057.035361406825!2d-0.5597494220858676!3d44.86985818283409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5528f48803414b%3A0x4cef388c969254b7!2sBase+sous-marine!5e0!3m2!1sfr!2sfr!4v1551547785163" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 
+    <?php include './footer.php'?>
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

@@ -4,24 +4,24 @@ html, body{
 }
 
 .toggle_btn {
-   height: 30px;
+   height: 41px;
    width: 35px;
    position: absolute;
    float: right;
    margin-left: 95%;
-   margin-top: 30px;
+   margin-top: 45px;
    cursor: pointer;
    z-index: 2500;
 }
-
 .toggle_btn span {
-   height: 3px;
-   background-color: #ffaf87;
-   width: 100%;
-   position: absolute;
-   top: 20px;
-   left: 0;
-   border-radius: 10px;
+height: 3px;
+    background-color: #ffaf87;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    margin-left: 10px;
+    border-radius: 10px;
 }
 
 .toggle_btn span:before {
@@ -81,10 +81,10 @@ html, body{
  
 .nav{
    margin-left: -100%;
-   transition-duration: 0.2s;
+   transition-duration: 0.3s;
 }
 
 .nav_open {
    margin-left: 0;
-   transition-duration: 0.2s; 
+   transition-duration: 0.3s; 
 }

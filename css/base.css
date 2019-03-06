@@ -4,13 +4,18 @@
     background-size: cover;
     height: 100vh;
 }
+#acc h1{
+    margin-left: 15%;
+}
+#acc p{
+    margin-left: 6%;
+}
 #histoire{
     height: 50vh;
 }
-.bloc{
-    margin-top: 3%;
+.bloque{
     margin-left: 15%;
-    margin-bottom: 3%;
+    padding-bottom: 50px;
 }
 #bicolor{
     background-image: url(../img/bicoloor.png);
@@ -22,7 +27,7 @@
     position: absolute;
 }
 #bicolor p{
-    margin-left: 17%;
+    margin-left: 25%;
     margin-top: 5%;
 }
 #bicolor2{
@@ -37,4 +42,34 @@
     color: #ffaf87;
     margin-left: 40%;
     margin-top: 5%;
+}
+
+.h2lum{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 9%;
+}
+#bassin{
+    height: 100vh;
+    margin-left: 10%;
+    display: flex;
+}
+.lumiere{
+    flex-direction: column;
+}
+.photo-bassin{
+    width: 50%;
+    
+}
+.bassinlumiere{
+    background-image: url(../img/bassin-des-lumières.jpg);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+#slide3{
+    margin-bottom: 150px;
 }

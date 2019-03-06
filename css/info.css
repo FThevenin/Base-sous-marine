@@ -1,0 +1,38 @@
+#infopratique{
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+#infopratique .pictoinfo{
+    margin: 0;
+    margin-right: 15px;
+}
+#infopratique h2{
+    margin: 0;
+}
+.box{
+    margin-left: 10%;
+    margin-top: 10%;
+    position: absolute;
+}
+.boy{
+    background-image: url(../img/infoimg.JPG);
+    background-position: center;
+    background-size: cover;
+    width: 26%;
+    height: 70%;
+    float: right;
+    margin-top: 11%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+#carte{
+    position: relative;
+    height: 50vh;
+    margin-top: 10px;
+}
+#next{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+}

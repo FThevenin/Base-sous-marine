@@ -1,0 +1,141 @@
+html{
+    scroll-behavior: smooth;
+}
+#bkg{
+    background-color: #1e1e1e;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+footer p{
+    color: #ffaf87;
+    font-family: "Poppins";
+}
+#mentions{
+    margin-top: 40px;
+    width: 25%;
+}
+#mentions p{
+    margin-bottom: 60px;
+
+}
+#reseau{
+    margin-top: 50px;
+}
+.ancrefoot{
+    background-image: url(../img/Ancre.png);
+    background-position: center;
+    background-size: cover;
+    height: 55px;
+    width: 45px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+.ancrefoot:hover{
+    background-image: url(../img/ancre-parallaxe.png);
+    background-position: center;
+    background-size: cover;
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+ }
+.insta{
+    background-image: url(../img/insta.png);
+    background-position: center;
+    background-size: cover;
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+    margin-top: 70px;
+}
+.facebook{
+    background-image: url(../img/facebook.png);
+    background-position: center;
+    background-size: cover;
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+    margin-top: 70px;
+}
+#form{
+    margin-top: 40px;
+    width: 25%;
+}
+.nom,.prenom,.email,.bouton,.envoyer
+{
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+.bloc{
+    width: 70%;
+    height: 30px;
+    padding-right: 30%;
+    border: none;
+}
+::placeholder{
+    padding-left: 10px;
+}
+.envoyer{
+    display: inline-block;
+    font-size: 20px;
+    background: 100%;
+    background-color: #312782;
+    padding: 10px;
+    color: white;
+    width: 300px;
+    display: flex;
+}
+.envoyer .bouton{
+    background-color: #312782;
+    color: white;
+    border: none;
+    margin: auto;
+    cursor: pointer;
+}
+#part{
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.europe{
+    background-image: url(../img/europe.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 10%;
+    height: 180px;
+}
+.republique{
+    background-image: url(../img/republique.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 10%;
+    height: 100px;
+}
+.nvlle-aqui{
+    background-image: url(../img/nvelle-aquitaine.png);
+    background-position: center;
+    background-size: cover;
+    width: 15%;
+    height: 95px;
+}
+.bdx-metropole{
+    background-image: url(../img/Bdx-metropole.png);
+    background-position: center;
+    background-size: cover;
+    width: 15%;
+    height: 95px;
+}
+.bdx-logo{
+    background-image: url(../img/logobdx.png);
+    background-position: center;
+    background-size: cover;
+    width: 10%;
+    height: 180px;
+}
