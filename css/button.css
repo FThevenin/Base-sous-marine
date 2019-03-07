@@ -2,8 +2,11 @@
   font-family: "Poppins", sans-serif;
 }
 
-button {
+.container {
   position: relative;
+}
+
+button {
   outline: none;
   height: 40px;
   text-align: center;
@@ -16,7 +19,7 @@ button {
   text-shadow: 0;
   margin-bottom: 40px;
   margin-top: 10px;
-  z-index: 5000;
+  z-index: 4000;
   cursor: pointer;
   transition: all 0.25s ease;
 }

@@ -62,7 +62,6 @@ p{
    position: absolute;
    bottom: 10px;
    width: 100%;
-   z-index: 1000;
 }
 .title{
    position: relative;
@@ -96,7 +95,7 @@ p{
    transition: 0.3s;
 }
 .ancre:hover{
-   background-image: url(../img/ancre-parallaxe.png);
+   background-image: url(../img/ancre-hover.png);
    background-position: center;
    background-size: cover;
    height: 55px;
@@ -110,6 +109,7 @@ p{
    display: flex;
    width: 100%;
    z-index: 1000;
+   justify-content: flex-end;
 }
 #medio h2{
    display: flex;
@@ -121,7 +121,7 @@ p{
    margin-bottom: 10px;
 }
 .clas{
-   width: 52%;
+   width: 55%;
    float: right
 }
 .clas1{
@@ -129,14 +129,13 @@ p{
    float: left;
 }
 #medioacqua{
-   background-image: url(../img/Medio-acqua.png);
+   background-image: url(../img/Medio-diag.png);
    background-position: center;
    background-size: cover;
    height: 100%;
    width: 100%;
 }
 .txt{
-   margin-left: 11%;
    margin-top: 3%;
    float: left;
 }

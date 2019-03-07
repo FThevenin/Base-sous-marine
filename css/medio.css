@@ -48,6 +48,8 @@
 #malphette{
     height: 80vh;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 .photo-pierre{
     width: 50%;
@@ -74,6 +76,7 @@
     height: 90vh;
     position: relative;
     display: flex;
+    align-items: center;
 }
 .photo-nicolas{
     width: 50%;
@@ -95,6 +98,8 @@
 #lavenne{
     height: 80vh;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 .photo-mathilde{
     width: 50%;

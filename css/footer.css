@@ -7,6 +7,7 @@ html{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     position: relative;
 }
 footer p{
@@ -14,16 +15,13 @@ footer p{
     font-family: "Poppins";
 }
 #mentions{
-    margin-top: 40px;
     width: 25%;
 }
 #mentions p{
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 
 }
-#reseau{
-    margin-top: 50px;
-}
+
 .ancrefoot{
     background-image: url(../img/Ancre.png);
     background-position: center;
@@ -35,7 +33,7 @@ footer p{
     transition: 0.3s;
 }
 .ancrefoot:hover{
-    background-image: url(../img/ancre-parallaxe.png);
+    background-image: url(../img/ancre-hover.png);
     background-position: center;
     background-size: cover;
     height: 55px;
@@ -76,9 +74,7 @@ footer p{
     height: 30px;
     padding-right: 30%;
     border: none;
-}
-::placeholder{
-    padding-left: 10px;
+    padding-left: 20px;
 }
 .envoyer{
     display: inline-block;
