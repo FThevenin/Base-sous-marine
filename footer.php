@@ -2,7 +2,7 @@
 <footer>
     <section id="bkg">
         <section id="mentions">
-            <p>Mentions Légales</p>
+            <a href="mention.php"><p>Mentions Légales</p></a>
             <p>Tél: 05 56 11 11 50</p>
             <p>© base sous-marine 2019</p>
             <p>Base sous-marine- Boulevard Alfred Daney - <br> 33000 Bordeaux</p>

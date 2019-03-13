@@ -47,7 +47,7 @@
             <h2>Medio Acqua <br> de quoi sa parle?</h2>
             <p>Inspiré par l’histoire, l’architecture et la <br> géographie du lieu, le commissaire d’exposition, <br> Renato Casciani, a souhaité réunir une vingtaine <br> d’artistes pour un parcours poétique puisant son <br> inspiration dans l’univers aquatique. </p>
             <div class="container">
-                    <a href="base.html"><button id="button">En savoir plus</button></a>     
+                    <a href="base.php"><button id="button">En savoir plus</button></a>     
               </div>
         </div>
     </section>
@@ -57,7 +57,7 @@
             <p> <strong>Née en 1970, vit et travaille à Marseille.</strong> </p>
             <p>Diplômé de l’École des Beaux-Arts de Bourges, <br> Pierre Malphettes explore à la fois la sculpture, <br> l’installation, la photographie , la vidéo et le dessin <br> mural. À travers ses oeuvres, il cherche à créer un <br> dialogue entre nature et artifice. Il emprunte <br> notament au monde industriel et à l’univers de la <br> construction leurs matériaux transformés pour <br> réaliser une oeuvre  qui représente de <br> phénomènes et éléments naturels. </p>
             <div class="container">
-                    <a href="base.html"><button id="button">En savoir plus</button></a>     
+                    <a href="base.php"><button id="button">En savoir plus</button></a>     
               </div>
         </div>
         <div class="photo-pierre">
@@ -73,7 +73,7 @@
                 <p> <strong>Née en 1977, vit et travaille en tous lieux.</strong></p>
                 <p>Le travail de Nicolas Tourte questionne avec <br> humour et dérision la place de l’homme dans <br> l’univers. L’art vidéo joue un rôle primordial dans <br> sa pratique, notamment par l’utilisation de sy-<br>stèmes de projection dans l’espace. Il convoque <br> également une multitude de médiums: la sculpt- <br> ure, le dessin, l’installation et les outils numé- <br> riques liésau traitement de la photographie et de <br> la vidéo pour créer des situations entre le réel <br> et le virtuel. </p>
                 <div class="container">
-                        <a href="base.html"><button id="button">En savoir plus</button></a>     
+                        <a href="base.php"><button id="button">En savoir plus</button></a>     
                   </div>
             </div>
     </section>
@@ -83,7 +83,7 @@
         <p> <strong>Née en 1982, vit et travaille à Madrid.</strong></p>
         <p>Récemment diplômée de l’école du Fresnoy,<br> Studio national des arts contemporains, <br> Mathilde Lavenne oriente son travail vers les <br> technologies émergentes et les outils <br> numériques par l’écriture de court-métrages et <br> la réalisation d’installations numériques. Elle se <br> consacre pendant deux années à la réalisation <br> du film Focus on Infinity abordant ce voyage <br> sous l’angle de la fouille, de la matière et de <br> l’errance.</p>
         <div class="container">
-                <a href="base.html"><button id="button">En savoir plus</button></a>     
+                <a href="base.php"><button id="button">En savoir plus</button></a>     
             </div>
     </div>
     <div class="photo-mathilde">
@@ -92,9 +92,9 @@
     </section>
     <section id="barre">
     <div class="pictolienmedio">
-        <a href="info.html"><div class="pictoinfo"></div></a>
-        <a href="agenda.html"><div class="pictocarnet"></div></a>
-        <a href="base.html"><div class="pictobsm"></div></a>
+        <a href="info.php"><div class="pictoinfo"></div></a>
+        <a href="agenda.php"><div class="pictocarnet"></div></a>
+        <a href="base.php"><div class="pictobsm"></div></a>
     </div>
     </section>
     <?php include './footer.php'?>
