@@ -137,7 +137,7 @@ p{
 }
 .txt{
    margin-top: 3%;
-   float: left;
+   margin-left: 10%;
 }
 .txt p{
       line-height: 2;
@@ -168,7 +168,7 @@ p{
    background-position: center;
    background-size: cover;
    height: 100%;
-   width: 94%;
+   width: 95%;
 }
 .pictobsm{
    background-image: url(../img/Picto-bsm.png);

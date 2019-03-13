@@ -46,7 +46,7 @@
         <div class="pictoexpo"></div>
         <h2>MEDIO ACQUA</h2>
       </div>
-      <p>Medio acqua présente des installations d’artistes majeurs et <br> emblématiques de la scène artistique française et internationale ainsi <br> qu’une sélection d’œuvres vidéo de jeunes artistes émergents et <br> récemment diplômés de la prestigieuse école du Fresnoy.</p>
+      <p>Medio acqua présente des installations d’artistes majeurs et <br> emblématiques de la scène artistique française et internationale <br> ainsi qu’une sélection d’œuvres vidéo de jeunes artistes émergents <br> et récemment diplômés de la prestigieuse école du Fresnoy.</p>
       <div class="container">
         <a href="medio.html"><button id="button">En savoir plus</button></a>
       </div>
